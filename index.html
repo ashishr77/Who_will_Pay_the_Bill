@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <i></i>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/sapiens.svg" alt="">
+            <h3>WhoWillPay.com</h3>
+        </div>
+        <div class="playButton">
+            <span>PLAY NOW</span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="head">
+            <h3 class="heading-1">
+                Who will Pay The Bill !
+                <!-- Who Will Give you Party -->
+            </h3>
+            <p class="heading">
+                Enter the name Of Your Friends
+            </p>
+        </div>
+        <div id="input-container">
+            <input type="text" name="inputBox[]" class="option" placeholder="Enter the name " required>
+        </div>
+        <div class="twoButton">
+            <button type="button" class="button">
+                <span class="button__text">Add Item</span>
+                <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor"
+                        height="24" fill="none" class="svg">
+                        <line y2="19" y1="5" x2="12" x1="12"></line>
+                        <line y2="12" y1="12" x2="19" x1="5"></line>
+                    </svg></span>
+            </button>
+            <button type="submit" for="" class="button" id="submit">Tell me!</button>
+        </div>
+    </div>
+    <div class="bottom-bar">
+        <div class="center-bar">
+            <div id="load-bar">
+                Loading...
+                <div class="loader">
+                </div>
+            </div>
+            <div class="pay">
+                <p>congratulations ! Transfer Bill to...</p>
+                <b>Mr/miss. <span id="msg"></span></b>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
